@@ -6,7 +6,7 @@ categories:
 - [webdev, blogging]
 ---
 
-![Audrow](/assets/audrow.jpg)
+![Audrow](assets/audrow.jpg)
 
 This is going to be a place to document my thinking, a public journal, if you like.
 
