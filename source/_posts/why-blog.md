@@ -5,6 +5,7 @@ tags:
 categories:
   - [webdev, blogging]
 date: 2020-12-31 20:49:55
+excerpt: <br>To do something other than browse Youtube...
 comments: true
 ---
 
