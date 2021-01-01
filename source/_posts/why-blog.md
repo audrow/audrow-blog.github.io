@@ -5,6 +5,7 @@ tags:
 categories:
   - [webdev, blogging]
 date: 2020-12-31 20:49:55
+comments: true
 ---
 
 I am starting this blog for a several reasons:
