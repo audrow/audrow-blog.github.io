@@ -118,3 +118,5 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+disqus_shortname: audrow-github-io-blog
