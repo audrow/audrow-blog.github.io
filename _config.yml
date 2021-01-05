@@ -41,7 +41,7 @@ external_link:
   exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -124,3 +124,4 @@ disqus_shortname: audrow-github-io-blog
 marked:
   gfm: true
   breaks: false
+  postAsset: true
