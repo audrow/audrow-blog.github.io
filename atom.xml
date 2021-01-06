@@ -6,7 +6,7 @@
   <link href="https://audrow.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://audrow.github.io/blog/"/>
-  <updated>2021-01-05T07:04:14.624Z</updated>
+  <updated>2021-01-06T18:46:45.258Z</updated>
   <id>https://audrow.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>What to use to start a blog?</title>
+    <link href="https://audrow.github.io/blog/2021/01/05/why-hexo/"/>
+    <id>https://audrow.github.io/blog/2021/01/05/why-hexo/</id>
+    <published>2021-01-05T07:04:07.000Z</published>
+    <updated>2021-01-06T18:46:45.258Z</updated>
+    
+    
+    <summary type="html">&lt;br&gt;An explanation of the services and frameworks I considered before starting this blog.</summary>
+    
+    
+    
+    <category term="webdev" scheme="https://audrow.github.io/blog/categories/webdev/"/>
+    
+    <category term="blogging" scheme="https://audrow.github.io/blog/categories/webdev/blogging/"/>
+    
+    
+    <category term="design" scheme="https://audrow.github.io/blog/tags/design/"/>
+    
+    <category term="comparison" scheme="https://audrow.github.io/blog/tags/comparison/"/>
+    
+    <category term="hexo" scheme="https://audrow.github.io/blog/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Why start this blog?</title>
     <link href="https://audrow.github.io/blog/2021/01/01/why-blog/"/>
     <id>https://audrow.github.io/blog/2021/01/01/why-blog/</id>
     <published>2021-01-01T04:49:55.000Z</published>
-    <updated>2021-01-05T07:04:14.624Z</updated>
+    <updated>2021-01-06T18:46:45.258Z</updated>
     
     
     <summary type="html">&lt;br&gt;To do something other than browse Youtube...</summary>
