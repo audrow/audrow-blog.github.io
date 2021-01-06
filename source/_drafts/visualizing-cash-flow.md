@@ -8,11 +8,10 @@ tags:
 categories:
   - webdev
 comments: true
-excerpt: <br>
-date: 2021-01-05 09:15:06
+excerpt: <iframe width="100%" height="514" frameborder="0" src="https://observablehq.com/embed/@audrow/visualizing-cash-flow?cell=expenseZoomableTreemap"></iframe>
 ---
 
-![](money-banner.jpg "Money banner")
+![](visualizing-cash-flow-banner.jpg "Money banner")
 
 <iframe width="100%" height="514" frameborder="0"
   src="https://observablehq.com/embed/@audrow/visualizing-cash-flow?cell=expenseZoomableTreemap"></iframe>

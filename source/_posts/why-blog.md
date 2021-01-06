@@ -9,6 +9,8 @@ excerpt: <br>To do something other than browse Youtube...
 comments: true
 ---
 
+![](why-blog-banner.jpg "Notebook banner image")
+
 I am starting this blog for a several reasons:
 
 * I enjoy writing and need a ["downhill"](https://www.tobysinclair.com/post/book-summary-tiny-habits-the-small-changes-that-change-everything) leisure activity (I can spend hours writing) so I get off of YouTube and [Habitica](https://habitica.com/).

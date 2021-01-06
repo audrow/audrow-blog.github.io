@@ -12,6 +12,8 @@ excerpt: <br>An explanation of the services and frameworks I considered before s
 date: 2021-01-04 23:04:07
 ---
 
+![](why-hexo-banner.jpg "Tools banner image")
+
 ## Overview
 
 I've been planning to make a blog for a while.
