@@ -6,7 +6,7 @@
   <link href="https://audrow.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://audrow.github.io/blog/"/>
-  <updated>2021-01-08T05:46:04.638Z</updated>
+  <updated>2021-01-08T05:49:54.297Z</updated>
   <id>https://audrow.github.io/blog/</id>
   
   <author>
@@ -21,10 +21,11 @@
     <link href="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/"/>
     <id>https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/</id>
     <published>2021-01-08T05:44:44.000Z</published>
-    <updated>2021-01-08T05:46:04.638Z</updated>
+    <updated>2021-01-08T05:49:54.297Z</updated>
     
     
-    <summary type="html">&lt;br&gt;</summary>
+    <summary type="html">&lt;iframe width=&quot;100%&quot; height=&quot;514&quot; frameborder=&quot;0&quot; src=&quot;https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap&quot;&gt;&lt;/iframe&gt;
+</summary>
     
     
     
@@ -46,7 +47,7 @@
     <link href="https://audrow.github.io/blog/2021/01/05/why-hexo/"/>
     <id>https://audrow.github.io/blog/2021/01/05/why-hexo/</id>
     <published>2021-01-05T07:04:07.000Z</published>
-    <updated>2021-01-08T05:46:04.642Z</updated>
+    <updated>2021-01-08T05:49:54.301Z</updated>
     
     
     <summary type="html">&lt;br&gt;An explanation of the services and frameworks I considered before starting this blog.</summary>
@@ -71,7 +72,7 @@
     <link href="https://audrow.github.io/blog/2021/01/01/why-blog/"/>
     <id>https://audrow.github.io/blog/2021/01/01/why-blog/</id>
     <published>2021-01-01T04:49:55.000Z</published>
-    <updated>2021-01-08T05:46:04.642Z</updated>
+    <updated>2021-01-08T05:49:54.297Z</updated>
     
     
     <summary type="html">&lt;br&gt;To do something other than browse Youtube...</summary>
