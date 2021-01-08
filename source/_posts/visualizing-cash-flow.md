@@ -8,7 +8,8 @@ tags:
 categories:
   - webdev
 comments: true
-excerpt: <br>
+excerpt: |
+  <iframe width="100%" height="514" frameborder="0" src="https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap"></iframe>
 date: 2021-01-07 21:44:44
 ---
 
