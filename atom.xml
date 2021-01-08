@@ -6,7 +6,7 @@
   <link href="https://audrow.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://audrow.github.io/blog/"/>
-  <updated>2021-01-06T19:21:44.337Z</updated>
+  <updated>2021-01-08T05:46:04.638Z</updated>
   <id>https://audrow.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Visualizing my cash flow with Observable and D3js</title>
+    <link href="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/"/>
+    <id>https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/</id>
+    <published>2021-01-08T05:44:44.000Z</published>
+    <updated>2021-01-08T05:46:04.638Z</updated>
+    
+    
+    <summary type="html">&lt;br&gt;</summary>
+    
+    
+    
+    <category term="webdev" scheme="https://audrow.github.io/blog/categories/webdev/"/>
+    
+    
+    <category term="money" scheme="https://audrow.github.io/blog/tags/money/"/>
+    
+    <category term="visualization" scheme="https://audrow.github.io/blog/tags/visualization/"/>
+    
+    <category term="d3js" scheme="https://audrow.github.io/blog/tags/d3js/"/>
+    
+    <category term="observable" scheme="https://audrow.github.io/blog/tags/observable/"/>
+    
+  </entry>
+  
+  <entry>
     <title>What should I use to start a blog?</title>
     <link href="https://audrow.github.io/blog/2021/01/05/why-hexo/"/>
     <id>https://audrow.github.io/blog/2021/01/05/why-hexo/</id>
     <published>2021-01-05T07:04:07.000Z</published>
-    <updated>2021-01-06T19:21:44.337Z</updated>
+    <updated>2021-01-08T05:46:04.642Z</updated>
     
     
     <summary type="html">&lt;br&gt;An explanation of the services and frameworks I considered before starting this blog.</summary>
@@ -46,7 +71,7 @@
     <link href="https://audrow.github.io/blog/2021/01/01/why-blog/"/>
     <id>https://audrow.github.io/blog/2021/01/01/why-blog/</id>
     <published>2021-01-01T04:49:55.000Z</published>
-    <updated>2021-01-06T19:21:44.337Z</updated>
+    <updated>2021-01-08T05:46:04.642Z</updated>
     
     
     <summary type="html">&lt;br&gt;To do something other than browse Youtube...</summary>
