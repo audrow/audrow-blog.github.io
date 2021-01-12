@@ -22,16 +22,12 @@
 <meta property="og:url" content="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/index.html">
 <meta property="og:site_name" content="Audrow&#39;s blog">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/visualizing-cash-flow-banner.jpg">
 <meta property="article:published_time" content="2021-01-08T05:44:44.000Z">
-<meta property="article:modified_time" content="2021-01-08T05:49:54.297Z">
+<meta property="article:modified_time" content="2021-01-12T03:45:22.163Z">
 <meta property="article:author" content="Audrow Nash">
-<meta property="article:tag" content="money">
-<meta property="article:tag" content="visualization">
-<meta property="article:tag" content="d3js">
-<meta property="article:tag" content="observable">
+<meta property="article:tag" content="demo">
+<meta property="article:tag" content="design">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/visualizing-cash-flow-banner.jpg">
   
     <link rel="alternate" href="/blog/atom.xml" title="Audrow's blog" type="application/atom+xml">
   
@@ -97,7 +93,7 @@
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/blog/categories/webdev/">webdev</a>
+    <a class="article-category-link" href="/blog/categories/platforms/">platforms</a>►<a class="article-category-link" href="/blog/categories/platforms/observable/">observable</a>►<a class="article-category-link" href="/blog/categories/programming/">programming</a>►<a class="article-category-link" href="/blog/categories/programming/javascript/">javascript</a>►<a class="article-category-link" href="/blog/categories/programming/javascript/D3js/">D3js</a>
   </div>
 
   </div>
@@ -116,24 +112,38 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p><img src="visualizing-cash-flow-banner.jpg" title="Money banner"></p>
-<p>I think that it’s important to understand where your money is going.
-I find this hard to do with most of the tools I’ve tried.
-The online services I have tried (at least five different ones, including Mint and Personal Capital) often do pretty lame clustering of my spending (no Mint, my paycheck is not auto insurance) and savings.
-My spending is pretty regular, so I’m more interested to get a big picture understanding of where my money is going, so that I can see if I’m being particularly wasteful in any areas.
-It also helps to have a sense of scale between areas of my spending.</p>
-<p>Previously I have used spreadsheets or just white paper to sum up everything.
-This works, but it isn’t very general: I have to redo it every time I want to reexamine my cash flow.
-It is also difficult to see how nesting works with expense categories.
-For example, I want to see how much I’m spending on ‘food’ but it’d also be nice to see exactly what I’m eating and its relative cost. As a lazy programmer, I felt like I could do better (less).</p>
-<p>What I’ve made is a page on Observable that uses D3 to make a zoomable tree map to help me understand my data.
-The program normalizes all of savings and expenses to the same unit time (in this case, one month) so that it can be compared.
-You show nesting in the structure by having nested objects, to an arbitrary level.
-Give it a try!</p>
-<iframe width="100%" height="514" frameborder="0"
+        <iframe width="100%" height="440" frameborder="0" 
   src="https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap"></iframe>
 
-<p>You can find the full project <a target="_blank" rel="noopener" href="https://observablehq.com/@audrow/visualizing-cash-flow-demo">here</a> and it includes instructions for using it for yourself.</p>
+<p>It is hard to prioritize when you don’t have the full picture.
+One area where this is true for me has been my cash flow.
+The online services I have tried (like Mint and Personal Capital) do a pretty lame job of clustering my spending (no Mint, my paycheck is not auto insurance) and savings.
+Also, my cash flow doesn’t vary much from month-to-month, so I decided to make a <a target="_blank" rel="noopener" href="https://observablehq.com/@audrow/visualizing-cash-flow-demo">small tool on Observable</a> to help me see where my money is going.
+Donal Knuth said that “Premature optimization is the root of all evil,” and this way, I can better see where I should put attention to reduce my spending or increase my savings.
+The tool I made uses <a target="_blank" rel="noopener" href="https://d3js.org/">D3js</a> for visualization and is on <a target="_blank" rel="noopener" href="https://observablehq.com/">Observable</a>, a kind of Jupyter Notebook for Javascript.
+You can see a Pirate-themed demo above - try clicking around.</p>
+<h2 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h2><p>Cashflow is broken down into four categories:</p>
+<ul>
+<li>Taxes</li>
+<li>Expenses</li>
+<li>Savings</li>
+<li>Unallocated (money that you could possibly save 😉)</li>
+</ul>
+<p>In the project, you enter your total income, the percentage of that income that you keep after taxes, and then your regular expenses and savings.
+(The project is using local specific formatting, so feel free to change the region and currency.)
+To support nesting, expenses and savings are represented in <a target="_blank" rel="noopener" href="https://www.json.org/json-en.html">Javascript Object Notation (JSON)</a>.
+For example,</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> savings = &#123;</span><br><span class="line">  treasureChest: &#123;</span><br><span class="line">    gold: <span class="number">200</span>,</span><br><span class="line">    silver: <span class="number">100</span>,</span><br><span class="line">  &#125;,</span><br><span class="line">  retirement: &#123;</span><br><span class="line">    rothIra: <span class="number">500</span>,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>In this case, the total savings is 800, with 300 in the treasure chest and 500 in retirement accounts.
+If you look into the <code>treasureChest</code> you then see that 200 is in gold and 100 in silver.</p>
+<p>Actually, the current format combines entries that are made in different time spans, so you can enter things like:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> weeklySavings = &#123;</span><br><span class="line">  treasureChest: &#123;</span><br><span class="line">    gold: <span class="number">60</span>,</span><br><span class="line">    silver: <span class="number">30</span>,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">let</span> monthlySavings = &#123;</span><br><span class="line">  retirement: &#123;</span><br><span class="line">    rothIra: <span class="number">500</span>,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>and they will be combined for the same amount of time (currently, monthly).</p>
+<p>As you make these changes, they will immediately be reflected in the Observable project.
+Happy visualizing!</p>
+<h2 id="Ending-thoughts"><a href="#Ending-thoughts" class="headerlink" title="Ending thoughts"></a>Ending thoughts</h2><p>You can find the <a target="_blank" rel="noopener" href="https://observablehq.com/@audrow/visualizing-cash-flow-demo">full project on Observable</a> and it includes instructions for using it for yourself.</p>
 <p>Some things that I have considered adding to this project are as follows:</p>
 <ul>
 <li>Ability to merge expenses in the same category but different time period together</li>
@@ -146,13 +156,13 @@ If you tried it, did anything about your cash flow surprise you?</p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/" data-id="ckjnv1bpk0000ljn91bur5e85" data-title="Visualizing my cash flow with Observable and D3js" class="article-share-link">Share</a>
+      <a data-url="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/" data-id="ckjtgcl46000094ng1xje7trl" data-title="Visualizing my cash flow with Observable and D3js" class="article-share-link">Share</a>
       
         <a href="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/#disqus_thread" class="article-comment-link">Comments</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/d3js/" rel="tag">d3js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/money/" rel="tag">money</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/observable/" rel="tag">observable</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/visualization/" rel="tag">visualization</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/demo/" rel="tag">demo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/blog/tags/design/" rel="tag">design</a></li></ul>
 
     </footer>
   </div>
@@ -186,7 +196,7 @@ If you tried it, did anything about your cash flow surprise you?</p>
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/webdev/">webdev</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/webdev/blogging/">blogging</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/platforms/">platforms</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/platforms/observable/">observable</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/programming/">programming</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/programming/javascript/">javascript</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/programming/javascript/D3js/">D3js</a></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/webdev/">webdev</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/webdev/blogging/">blogging</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -196,7 +206,7 @@ If you tried it, did anything about your cash flow surprise you?</p>
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/comparison/" rel="tag">comparison</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/d3js/" rel="tag">d3js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/design/" rel="tag">design</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/hexo/" rel="tag">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/money/" rel="tag">money</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/observable/" rel="tag">observable</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/thoughts/" rel="tag">thoughts</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/visualization/" rel="tag">visualization</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/comparison/" rel="tag">comparison</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/demo/" rel="tag">demo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/design/" rel="tag">design</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/hexo/" rel="tag">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/thoughts/" rel="tag">thoughts</a></li></ul>
     </div>
   </div>
 
@@ -206,7 +216,7 @@ If you tried it, did anything about your cash flow surprise you?</p>
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/blog/tags/comparison/" style="font-size: 10px;">comparison</a> <a href="/blog/tags/d3js/" style="font-size: 10px;">d3js</a> <a href="/blog/tags/design/" style="font-size: 10px;">design</a> <a href="/blog/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/blog/tags/money/" style="font-size: 10px;">money</a> <a href="/blog/tags/observable/" style="font-size: 10px;">observable</a> <a href="/blog/tags/thoughts/" style="font-size: 10px;">thoughts</a> <a href="/blog/tags/visualization/" style="font-size: 10px;">visualization</a>
+      <a href="/blog/tags/comparison/" style="font-size: 10px;">comparison</a> <a href="/blog/tags/demo/" style="font-size: 10px;">demo</a> <a href="/blog/tags/design/" style="font-size: 20px;">design</a> <a href="/blog/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/blog/tags/thoughts/" style="font-size: 10px;">thoughts</a>
     </div>
   </div>
 
