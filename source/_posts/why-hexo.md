@@ -1,12 +1,13 @@
 ---
 title: What should I use to start a blog?
 tags:
-  - design
-  - comparison
-  - hexo
+  - Design
 categories:
-  - - webdev
-    - blogging
+  - - Domain
+    - Blogging
+  - - Programming
+    - Javascript
+    - Hexo
 comments: true
 excerpt: <br>An explanation of the services and frameworks I considered before starting this blog.
 date: 2021-01-04 23:04:07

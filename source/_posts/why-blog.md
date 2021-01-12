@@ -1,9 +1,10 @@
 ---
 title: Why start this blog?
 tags:
-  - thoughts
+  - Thoughts
 categories:
-  - [webdev, blogging]
+  - - Domain
+    - Blogging
 date: 2020-12-31 20:49:55
 excerpt: <br>To do something other than browse Youtube...
 comments: true
@@ -13,13 +14,13 @@ comments: true
 
 I am starting this blog for a several reasons:
 
-* I enjoy writing and need a ["downhill"](https://www.tobysinclair.com/post/book-summary-tiny-habits-the-small-changes-that-change-everything) leisure activity (I can spend hours writing) so I get off of YouTube and [Habitica](https://habitica.com/).
-* It is an attempt to [learn in public](https://twitter.com/swyx/status/1009174159690264579). My hope is that creating content that is available online will make me think more deeply about what I am communicating.
-* It will be a reference for future me and, hopefully, other people. I will be very happy if other people get some value from what I create here. Meeting people that enjoyed [Robohub's podcast](https://robohub.org/podcast/) was one of my favorite parts of being involved there.
-* It is a way to [create value from something that I am already doing](https://signalvnoise.com/posts/1620-sell-your-by-products) (writing).
-* This blog will grow with me as I learn more about web development.
+- I enjoy writing and need a ["downhill"](https://www.tobysinclair.com/post/book-summary-tiny-habits-the-small-changes-that-change-everything) leisure activity (I can spend hours writing) so I get off of YouTube and [Habitica](https://habitica.com/).
+- It is an attempt to [learn in public](https://twitter.com/swyx/status/1009174159690264579). My hope is that creating content that is available online will make me think more deeply about what I am communicating.
+- It will be a reference for future me and, hopefully, other people. I will be very happy if other people get some value from what I create here. Meeting people that enjoyed [Robohub's podcast](https://robohub.org/podcast/) was one of my favorite parts of being involved there.
+- It is a way to [create value from something that I am already doing](https://signalvnoise.com/posts/1620-sell-your-by-products) (writing).
+- This blog will grow with me as I learn more about web development.
 
-What will I write about? Whatever interests me. I enjoyed my time with Robohub, but found the incredibly broad topic of robotics limiting. Expect to see posts on robotics and web development, but also on improv comedy, behavior change, and stoicism, as well as whatever interests me. 
+What will I write about? Whatever interests me. I enjoyed my time with Robohub, but found the incredibly broad topic of robotics limiting. Expect to see posts on robotics and web development, but also on improv comedy, behavior change, and stoicism, as well as whatever interests me.
 
 <hr>
 

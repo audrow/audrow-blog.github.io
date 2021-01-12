@@ -1,14 +1,16 @@
 ---
 title: Visualizing my cash flow with Observable and D3js
 tags:
-  - demo
-  - design
+  - Demo
 categories:
-  - - programming
-    - javascript
+  - - Programming
+    - Javascript
     - D3js
-  - - platforms
-    - observable
+  - - Programming
+    - Platforms
+    - Observable
+  - - Domain
+    - Visualization
 comments: true
 excerpt: |
   <iframe width="100%" height="440 frameborder="0" src="https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap"></iframe>
