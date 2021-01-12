@@ -6,7 +6,7 @@
   <link href="https://audrow.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://audrow.github.io/blog/"/>
-  <updated>2021-01-12T03:45:22.163Z</updated>
+  <updated>2021-01-12T04:02:28.386Z</updated>
   <id>https://audrow.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/"/>
     <id>https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/</id>
     <published>2021-01-08T05:44:44.000Z</published>
-    <updated>2021-01-12T03:45:22.163Z</updated>
+    <updated>2021-01-12T04:02:28.386Z</updated>
     
     
     <summary type="html">&lt;iframe width=&quot;100%&quot; height=&quot;440 frameborder=&quot;0&quot; src=&quot;https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap&quot;&gt;&lt;/iframe&gt;
@@ -29,20 +29,22 @@
     
     
     
-    <category term="programming" scheme="https://audrow.github.io/blog/categories/programming/"/>
+    <category term="Programming" scheme="https://audrow.github.io/blog/categories/programming/"/>
     
-    <category term="javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
+    <category term="Javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
     
-    <category term="D3js" scheme="https://audrow.github.io/blog/categories/programming/javascript/D3js/"/>
+    <category term="D3js" scheme="https://audrow.github.io/blog/categories/programming/javascript/d3js/"/>
     
-    <category term="platforms" scheme="https://audrow.github.io/blog/categories/platforms/"/>
+    <category term="Platforms" scheme="https://audrow.github.io/blog/categories/programming/platforms/"/>
     
-    <category term="observable" scheme="https://audrow.github.io/blog/categories/platforms/observable/"/>
+    <category term="Observable" scheme="https://audrow.github.io/blog/categories/programming/platforms/observable/"/>
+    
+    <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
+    
+    <category term="Visualization" scheme="https://audrow.github.io/blog/categories/domain/visualization/"/>
     
     
-    <category term="demo" scheme="https://audrow.github.io/blog/tags/demo/"/>
-    
-    <category term="design" scheme="https://audrow.github.io/blog/tags/design/"/>
+    <category term="Demo" scheme="https://audrow.github.io/blog/tags/demo/"/>
     
   </entry>
   
@@ -51,23 +53,25 @@
     <link href="https://audrow.github.io/blog/2021/01/05/why-hexo/"/>
     <id>https://audrow.github.io/blog/2021/01/05/why-hexo/</id>
     <published>2021-01-05T07:04:07.000Z</published>
-    <updated>2021-01-12T03:45:22.163Z</updated>
+    <updated>2021-01-12T04:02:28.390Z</updated>
     
     
     <summary type="html">&lt;br&gt;An explanation of the services and frameworks I considered before starting this blog.</summary>
     
     
     
-    <category term="webdev" scheme="https://audrow.github.io/blog/categories/webdev/"/>
+    <category term="Programming" scheme="https://audrow.github.io/blog/categories/programming/"/>
     
-    <category term="blogging" scheme="https://audrow.github.io/blog/categories/webdev/blogging/"/>
+    <category term="Javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
+    
+    <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
+    
+    <category term="Blogging" scheme="https://audrow.github.io/blog/categories/domain/blogging/"/>
+    
+    <category term="Hexo" scheme="https://audrow.github.io/blog/categories/programming/javascript/hexo/"/>
     
     
-    <category term="design" scheme="https://audrow.github.io/blog/tags/design/"/>
-    
-    <category term="comparison" scheme="https://audrow.github.io/blog/tags/comparison/"/>
-    
-    <category term="hexo" scheme="https://audrow.github.io/blog/tags/hexo/"/>
+    <category term="Design" scheme="https://audrow.github.io/blog/tags/design/"/>
     
   </entry>
   
@@ -76,19 +80,19 @@
     <link href="https://audrow.github.io/blog/2021/01/01/why-blog/"/>
     <id>https://audrow.github.io/blog/2021/01/01/why-blog/</id>
     <published>2021-01-01T04:49:55.000Z</published>
-    <updated>2021-01-12T03:45:22.163Z</updated>
+    <updated>2021-01-12T04:02:28.386Z</updated>
     
     
     <summary type="html">&lt;br&gt;To do something other than browse Youtube...</summary>
     
     
     
-    <category term="webdev" scheme="https://audrow.github.io/blog/categories/webdev/"/>
+    <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
     
-    <category term="blogging" scheme="https://audrow.github.io/blog/categories/webdev/blogging/"/>
+    <category term="Blogging" scheme="https://audrow.github.io/blog/categories/domain/blogging/"/>
     
     
-    <category term="thoughts" scheme="https://audrow.github.io/blog/tags/thoughts/"/>
+    <category term="Thoughts" scheme="https://audrow.github.io/blog/tags/thoughts/"/>
     
   </entry>
   
