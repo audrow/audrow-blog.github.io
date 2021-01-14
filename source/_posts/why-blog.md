@@ -9,6 +9,7 @@ excerpt: |
   <br>
   To do something other than browse Youtube...
 comments: true
+toc: false
 ---
 
 ![](why-blog-banner.jpg "Notebook banner image")

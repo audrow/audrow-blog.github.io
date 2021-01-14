@@ -12,6 +12,7 @@ excerpt: |
   It is hard to prioritize when you don't have the full picture.
   One area where this is true for me has been my cash flow.
 date: 2021-01-07 21:44:44
+toc: false
 ---
 
 <iframe width="100%" height="440" frameborder="0" 

@@ -10,6 +10,7 @@ excerpt: |
   <br>
   An explanation of the services and frameworks I considered before starting this blog.
 date: 2021-01-04 23:04:07
+toc: true
 ---
 
 ![](why-hexo-banner.jpg "Tools banner image")
