@@ -1,0 +1,3 @@
+[submodule "themes/audrow-landscape"]
+	path = themes/audrow-landscape
+	url = https://github.com/audrow/hexo-theme-landscape
