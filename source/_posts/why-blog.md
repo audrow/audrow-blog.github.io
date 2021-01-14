@@ -3,10 +3,11 @@ title: Why start this blog?
 tags:
   - Thoughts
 categories:
-  - - Domain
-    - Blogging
+  - [Domain, Blogging]
 date: 2020-12-31 20:49:55
-excerpt: <br>To do something other than browse Youtube...
+excerpt: |
+  <br>
+  To do something other than browse Youtube...
 comments: true
 ---
 
