@@ -6,7 +6,7 @@
   <link href="https://audrow.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://audrow.github.io/blog/"/>
-  <updated>2021-01-12T04:46:44.199Z</updated>
+  <updated>2021-01-14T06:20:15.797Z</updated>
   <id>https://audrow.github.io/blog/</id>
   
   <author>
@@ -21,15 +21,19 @@
     <link href="https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/"/>
     <id>https://audrow.github.io/blog/2021/01/08/visualizing-cash-flow/</id>
     <published>2021-01-08T05:44:44.000Z</published>
-    <updated>2021-01-12T04:46:44.199Z</updated>
+    <updated>2021-01-14T06:20:15.797Z</updated>
     
     
-    <summary type="html">&lt;iframe width=&quot;100%&quot; height=&quot;440 frameborder=&quot;0&quot; src=&quot;https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap&quot;&gt;&lt;/iframe&gt;
+    <summary type="html">&lt;br&gt;
+It is hard to prioritize when you don&#39;t have the full picture.
+One area where this is true for me has been my cash flow.
 </summary>
     
     
     
     <category term="Programming" scheme="https://audrow.github.io/blog/categories/programming/"/>
+    
+    <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
     
     <category term="Javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
     
@@ -38,8 +42,6 @@
     <category term="Platforms" scheme="https://audrow.github.io/blog/categories/programming/platforms/"/>
     
     <category term="Observable" scheme="https://audrow.github.io/blog/categories/programming/platforms/observable/"/>
-    
-    <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
     
     <category term="Visualization" scheme="https://audrow.github.io/blog/categories/domain/visualization/"/>
     
@@ -53,7 +55,7 @@
     <link href="https://audrow.github.io/blog/2021/01/05/why-hexo/"/>
     <id>https://audrow.github.io/blog/2021/01/05/why-hexo/</id>
     <published>2021-01-05T07:04:07.000Z</published>
-    <updated>2021-01-12T04:46:44.203Z</updated>
+    <updated>2021-01-14T06:20:15.801Z</updated>
     
     
     <summary type="html">&lt;br&gt;An explanation of the services and frameworks I considered before starting this blog.</summary>
@@ -62,9 +64,9 @@
     
     <category term="Programming" scheme="https://audrow.github.io/blog/categories/programming/"/>
     
-    <category term="Javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
-    
     <category term="Domain" scheme="https://audrow.github.io/blog/categories/domain/"/>
+    
+    <category term="Javascript" scheme="https://audrow.github.io/blog/categories/programming/javascript/"/>
     
     <category term="Blogging" scheme="https://audrow.github.io/blog/categories/domain/blogging/"/>
     
@@ -80,7 +82,7 @@
     <link href="https://audrow.github.io/blog/2021/01/01/why-blog/"/>
     <id>https://audrow.github.io/blog/2021/01/01/why-blog/</id>
     <published>2021-01-01T04:49:55.000Z</published>
-    <updated>2021-01-12T04:46:44.199Z</updated>
+    <updated>2021-01-14T06:20:15.797Z</updated>
     
     
     <summary type="html">&lt;br&gt;To do something other than browse Youtube...</summary>
