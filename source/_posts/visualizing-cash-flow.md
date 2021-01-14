@@ -3,17 +3,14 @@ title: Visualizing my cash flow with Observable and D3js
 tags:
   - Demo
 categories:
-  - - Programming
-    - Javascript
-    - D3js
-  - - Programming
-    - Platforms
-    - Observable
-  - - Domain
-    - Visualization
+  - [Programming, Javascript, D3js]
+  - [Programming, Platforms, Observable]
+  - [Domain, Visualization]
 comments: true
 excerpt: |
-  <iframe width="100%" height="440 frameborder="0" src="https://observablehq.com/embed/@audrow/visualizing-cash-flow-demo?cell=treeMap"></iframe>
+  <br>
+  It is hard to prioritize when you don't have the full picture.
+  One area where this is true for me has been my cash flow.
 date: 2021-01-07 21:44:44
 ---
 
@@ -24,7 +21,7 @@ It is hard to prioritize when you don't have the full picture.
 One area where this is true for me has been my cash flow.
 The online services I have tried (like Mint and Personal Capital) do a pretty lame job of clustering my spending (no Mint, my paycheck is not auto insurance) and savings.
 Also, my cash flow doesn't vary much from month-to-month, so I decided to make a [small tool on Observable](https://observablehq.com/@audrow/visualizing-cash-flow-demo) to help me see where my money is going.
-Donal Knuth said that "Premature optimization is the root of all evil," and this way, I can better see where I should put attention to reduce my spending or increase my savings.
+Donald Knuth said that "Premature optimization is the root of all evil," and this way, I can better see where I should put attention to reduce my spending or increase my savings.
 The tool I made uses [D3js](https://d3js.org/) for visualization and is on [Observable](https://observablehq.com), a kind of Jupyter Notebook for Javascript.
 You can see a Pirate-themed demo above - try clicking around.
 
