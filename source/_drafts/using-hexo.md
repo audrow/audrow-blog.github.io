@@ -84,6 +84,8 @@ Markdown is marked up by Hexo into HTML.
 This is nice because it is less work to write in Markdown than HTML.
 If you're not familiar with Markdown, there are many resources online, including [this Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
+TK discuss frontmatter and writing in markdown here
+
 In addition to standard Markdown you can write your post in HTML directly or use [Hexo's tag-plugins](https://hexo.io/docs/tag-plugins).
 I don't really use the tag-plugins, as I can do all the same things in Markdown, which I'm more familiar with.
 
@@ -141,3 +143,7 @@ excerpt: |
 ### Setting up Google Analytics
 ### Setting up comments with Disqus
 ### Modifying an existing theme
+
+## Details glossed over
+* Using images in Markdown
+* Creating draft posts
