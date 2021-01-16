@@ -277,6 +277,7 @@ The easiest way to setup your repository with Github is probably the following:
    git push -u origin main
    ```
 
+
 ### Enable Github Pages
 
 Lastly, enable Github Pages for your project.
