@@ -1,16 +1,22 @@
 ---
 title: How did you make this blog?
-comments: true
-excerpt: |
-  <br>
-  A guide on how to make the same blog that I have.
 tags:
   - Tutorial
 categories:
-  - [Domain, Blogging]
-  - [Programming, Javascript, Hexo]
+  - - Domain
+    - Blogging
+  - - Programming
+    - Javascript
+    - Hexo
+comments: true
+excerpt: |
+  <br>
+  A tutorial on how to make a similar blog in Hexo.
 toc: true
+date: 2021-01-15 22:22:59
 ---
+
+![](using-hexo-banner.jpg)
 
 There are many reasons to blog ({% post_link why-blog my reasons to start this blog %}) and {% post_link why-hexo Hexo seems like the best tool %} that I've found for the job.
 In this post, I'm going to show you all the major steps to setting up a blog just like this.
